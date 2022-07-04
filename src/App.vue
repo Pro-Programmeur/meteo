@@ -55,7 +55,7 @@
     v-model="query" 
     @keypress="fetchWeather"
     />
-    {{ query  }}
+     <!-- {{ query  }} -->
   </div>
       <div class="weather-wrap" v-if="weather.main != null">
 
